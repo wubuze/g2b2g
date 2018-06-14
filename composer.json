@@ -17,5 +17,6 @@
       "psr-4": {
           "G2B2G\\": "src"
       }
-  }
+  },
+  "minimum-stability": "dev"
 }
