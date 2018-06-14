@@ -2,5 +2,5 @@
 
 1. composer require wubuze/g2b2g --dev 
 
-2. 
+2. v1.0.1
     
