@@ -1,0 +1,21 @@
+{
+  "name": "g2b2g/gbk-to-big5",
+  "description": "gbk2big52gbk for PHP ",
+  "license": "MIT",
+  "keywords": ["gbk to big5", "big5 to gbk"],
+  "authors": [
+      {
+          "name": "martin / wubuze",
+          "email": "buzewu@126.com"
+      }
+  ],
+  "require": {
+      "php": ">= 5.4"
+  },
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+          "G2B2G\\": "src"
+      }
+  }
+}
