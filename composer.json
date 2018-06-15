@@ -3,12 +3,6 @@
   "description": "gbk2big52gbk for PHP ",
   "license": "MIT",
   "keywords": ["gbk to big5", "big5 to gbk"],
-  "authors": [
-      {
-          "name": "martin / wubuze",
-          "email": "buzewu@126.com"
-      }
-  ],
   "require": {
       "php": ">= 5.4"
   },
@@ -18,5 +12,7 @@
           "G2B2G\\": "src"
       }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "optimize-autoloader": true
 }
