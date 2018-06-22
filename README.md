@@ -24,5 +24,5 @@ composer require wubuze/g2b2g:dev-master
 
 * 繁体 -> 简体
 
-  return $ufff->big5_gb2312('繁体体中文字符串');
+  return $ufff->big5_gb2312('繁体体中文字符串');   w1的更改
 
