@@ -1,10 +1,28 @@
 # g2b2g
 
-1. composer require wubuze/g2b2g --dev 
+* 中文简体和繁体互转
 
-2. v1.0.0
+1. 安装 
 
-3. v1.2
+composer require wubuze/g2b2g:dev-master
 
-4. 更新代码  9:17
-    
+建议使用国际镜像  composer require wubuze/g2b2g
+
+"repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }    
+}
+
+2. 使用
+
+* 简体 -> 繁体  
+ 
+  $ufff =  new \G2B2G\Ufff();
+  return $ufff->gb2312_big5('简体中文字符串');
+
+* 繁体 -> 简体
+
+  return $ufff->big5_gb2312('繁体体中文字符串');
+
