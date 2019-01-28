@@ -4,7 +4,7 @@
 
 1. 安装 
 
-composer require wubuze/g2b2g:dev-master
+composer require wubuze/g2b2g
 
 建议使用国际镜像  composer require wubuze/g2b2g
 
@@ -19,7 +19,7 @@ composer require wubuze/g2b2g:dev-master
 
 * 简体 -> 繁体  
  
-  $ufff =  new \G2B2G\Ufff();
+  $ufff =  new \Wubuze\G2B2G\Core();
   return $ufff->gb2312_big5('简体中文字符串');
 
 * 繁体 -> 简体
@@ -27,22 +27,6 @@ composer require wubuze/g2b2g:dev-master
   return $ufff->big5_gb2312('繁体体中文字符串');
   
 
-
-
-  # response for laravel
-
-  * Laravel Http\Controller.php
-
-  use G2B2G\Contracts\Eloquent\Translate\Responser;
-
-  use Responser;
-
-
-  return $this->resSuccess('Success !');
-
-  return $this->resFail('Account or Pwd is Error !');
-
-  return $this->resAlert('参数错误');
  
  
  # 66666
