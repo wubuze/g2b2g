@@ -1,6 +1,6 @@
 {
   "name": "wubuze/g2b2g",
-  "description": "gbk2big52gbk for PHP ",
+  "description": "gbk to big5 to gbk for PHP ",
   "license": "MIT",
   "keywords": ["gbk to big5", "big5 to gbk"],
   "require": {
