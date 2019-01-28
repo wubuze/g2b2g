@@ -1,8 +1,8 @@
 <?php
 
-namespace G2B2G;
+namespace Wubuze\G2B2G;
 
-class Ufff {
+class Core {
     private $utf8_gb2312;
     private $utf8_big5;
 
